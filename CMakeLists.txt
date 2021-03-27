@@ -230,11 +230,11 @@ endif ()
 #   find_package(BZip2)
 # endif ()
 
-if (FT_WITH_BROTLI)
-  find_package(BrotliDec REQUIRED)
-else ()
-  find_package(BrotliDec)
-endif ()
+# if (FT_WITH_BROTLI)
+#   find_package(BrotliDec REQUIRED)
+# else ()
+#   find_package(BrotliDec)
+# endif ()
 
 # Create the configuration file
 if (UNIX)
